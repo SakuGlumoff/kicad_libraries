@@ -49,19 +49,19 @@
         (name "GND" (effects (font (size 1.016 1.016))))
         (number "102" (effects (font (size 1.016 1.016))))
       )
-      (pin passive line (at 25.4 -32.385 180) (length 5.08)
+      (pin no_connect line (at 25.4 -33.02 180) (length 5.08)
         (name "RESERVED" (effects (font (size 1.016 1.016))))
         (number "11" (effects (font (size 1.016 1.016))))
       )
-      (pin passive line (at 25.4 -32.385 180) (length 5.08) hide
+      (pin no_connect line (at -7.62 -24.765 90) (length 5.08) hide
         (name "RESERVED" (effects (font (size 1.016 1.016))))
         (number "12" (effects (font (size 1.016 1.016))))
       )
-      (pin passive line (at 25.4 -32.385 180) (length 5.08) hide
+      (pin no_connect line (at 11.43 -24.765 90) (length 5.08) hide
         (name "RESERVED" (effects (font (size 1.016 1.016))))
         (number "13" (effects (font (size 1.016 1.016))))
       )
-      (pin passive line (at 25.4 -32.385 180) (length 5.08) hide
+      (pin no_connect line (at 12.7 -24.765 90) (length 5.08) hide
         (name "RESERVED" (effects (font (size 1.016 1.016))))
         (number "14" (effects (font (size 1.016 1.016))))
       )
@@ -69,7 +69,7 @@
         (name "PWRKEY" (effects (font (size 1.016 1.016))))
         (number "15" (effects (font (size 1.016 1.016))))
       )
-      (pin passive line (at 25.4 -32.385 180) (length 5.08) hide
+      (pin no_connect line (at 13.97 -24.765 90) (length 5.08) hide
         (name "RESERVED" (effects (font (size 1.016 1.016))))
         (number "16" (effects (font (size 1.016 1.016))))
       )
@@ -225,7 +225,7 @@
         (name "GND" (effects (font (size 1.016 1.016))))
         (number "50" (effects (font (size 1.016 1.016))))
       )
-      (pin passive line (at 25.4 -32.385 180) (length 5.08) hide
+      (pin no_connect line (at 10.16 -24.765 90) (length 5.08) hide
         (name "RESERVED" (effects (font (size 1.016 1.016))))
         (number "51" (effects (font (size 1.016 1.016))))
       )
@@ -245,11 +245,11 @@
         (name "GND" (effects (font (size 1.016 1.016))))
         (number "55" (effects (font (size 1.016 1.016))))
       )
-      (pin passive line (at 25.4 -32.385 180) (length 5.08) hide
+      (pin no_connect line (at 8.89 -24.765 90) (length 5.08) hide
         (name "RESERVED" (effects (font (size 1.016 1.016))))
         (number "56" (effects (font (size 1.016 1.016))))
       )
-      (pin passive line (at 25.4 -32.385 180) (length 5.08) hide
+      (pin no_connect line (at 7.62 -24.765 90) (length 5.08) hide
         (name "RESERVED" (effects (font (size 1.016 1.016))))
         (number "57" (effects (font (size 1.016 1.016))))
       )
@@ -277,7 +277,7 @@
         (name "GND" (effects (font (size 1.016 1.016))))
         (number "62" (effects (font (size 1.016 1.016))))
       )
-      (pin passive line (at 25.4 -32.385 180) (length 5.08) hide
+      (pin no_connect line (at 6.35 -24.765 90) (length 5.08) hide
         (name "RESERVED" (effects (font (size 1.016 1.016))))
         (number "63" (effects (font (size 1.016 1.016))))
       )
@@ -333,15 +333,15 @@
         (name "USB_BOOT" (effects (font (size 1.016 1.016))))
         (number "75" (effects (font (size 1.016 1.016))))
       )
-      (pin passive line (at 25.4 -32.385 180) (length 5.08) hide
+      (pin no_connect line (at 5.08 -24.765 90) (length 5.08) hide
         (name "RESERVED" (effects (font (size 1.016 1.016))))
         (number "76" (effects (font (size 1.016 1.016))))
       )
-      (pin passive line (at 25.4 -32.385 180) (length 5.08) hide
+      (pin no_connect line (at 3.81 -24.765 90) (length 5.08) hide
         (name "RESERVED" (effects (font (size 1.016 1.016))))
         (number "77" (effects (font (size 1.016 1.016))))
       )
-      (pin passive line (at 25.4 -32.385 180) (length 5.08) hide
+      (pin no_connect line (at 2.54 -24.765 90) (length 5.08) hide
         (name "RESERVED" (effects (font (size 1.016 1.016))))
         (number "78" (effects (font (size 1.016 1.016))))
       )
@@ -405,19 +405,19 @@
         (name "GND" (effects (font (size 1.016 1.016))))
         (number "91" (effects (font (size 1.016 1.016))))
       )
-      (pin passive line (at 25.4 -32.385 180) (length 5.08) hide
+      (pin no_connect line (at 1.27 -24.765 90) (length 5.08) hide
         (name "RESERVED" (effects (font (size 1.016 1.016))))
         (number "92" (effects (font (size 1.016 1.016))))
       )
-      (pin passive line (at 25.4 -32.385 180) (length 5.08) hide
+      (pin no_connect line (at 0 -24.765 90) (length 5.08) hide
         (name "RESERVED" (effects (font (size 1.016 1.016))))
         (number "93" (effects (font (size 1.016 1.016))))
       )
-      (pin passive line (at 25.4 -32.385 180) (length 5.08) hide
+      (pin no_connect line (at -1.27 -24.765 90) (length 5.08) hide
         (name "RESERVED" (effects (font (size 1.016 1.016))))
         (number "94" (effects (font (size 1.016 1.016))))
       )
-      (pin passive line (at 25.4 -32.385 180) (length 5.08) hide
+      (pin no_connect line (at -2.54 -24.765 90) (length 5.08) hide
         (name "RESERVED" (effects (font (size 1.016 1.016))))
         (number "95" (effects (font (size 1.016 1.016))))
       )
@@ -425,15 +425,15 @@
         (name "PON_TRIG" (effects (font (size 1.016 1.016))))
         (number "96" (effects (font (size 1.016 1.016))))
       )
-      (pin passive line (at 25.4 -32.385 180) (length 5.08) hide
+      (pin no_connect line (at -3.81 -24.765 90) (length 5.08) hide
         (name "RESERVED" (effects (font (size 1.016 1.016))))
         (number "97" (effects (font (size 1.016 1.016))))
       )
-      (pin passive line (at 25.4 -32.385 180) (length 5.08) hide
+      (pin no_connect line (at -5.08 -24.765 90) (length 5.08) hide
         (name "RESERVED" (effects (font (size 1.016 1.016))))
         (number "98" (effects (font (size 1.016 1.016))))
       )
-      (pin passive line (at 25.4 -32.385 180) (length 5.08) hide
+      (pin no_connect line (at -6.35 -24.765 90) (length 5.08) hide
         (name "RESERVED" (effects (font (size 1.016 1.016))))
         (number "99" (effects (font (size 1.016 1.016))))
       )
