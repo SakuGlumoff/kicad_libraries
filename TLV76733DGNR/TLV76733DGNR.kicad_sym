@@ -67,7 +67,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey Part Number" "296-TLV76733DGNRCT-ND"
+		(property "Digi-Key Part Number" "296-TLV76733DGNRCT-ND"
 			(at 0.254 -15.494 0)
 			(effects
 				(font
