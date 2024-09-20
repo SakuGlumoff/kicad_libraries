@@ -1,0 +1,200 @@
+(footprint "800MHz_inverted_f_antenna"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 5.9 -0.8 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "aad30e7f-63a3-47b7-85c5-51fc9e68de59")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "800MHz_inverted_f_antenna"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "863a97d5-80b4-411c-ac2f-78f3b5f98e18")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "54fcc2bb-5634-48cd-927e-a0a45cf99b5c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "baf3bbf3-617f-4d57-94d5-30ccfe7190cb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f6a4f7e1-7af8-4731-b3c5-f8877bb4f9c2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(net_tie_pad_groups "1,2")
+	(fp_poly
+		(pts
+			(xy 10 -2.58) (xy 19.09 -2.58) (xy 19.09 -9.02) (xy 19.67 -9.02) (xy 29.34 -9.02) (xy 29.92 -9.02)
+			(xy 29.92 -2) (xy 29.34 -2) (xy 29.34 -8.44) (xy 19.67 -8.44) (xy 19.67 -2) (xy 19.09 -2) (xy 10 -2)
+			(xy 9.42 -2) (xy 9.42 -8.44) (xy 2.35 -8.44) (xy 2.35 0.25) (xy 1.85 0.25) (xy 1.85 -8.44) (xy 0.25 -8.44)
+			(xy 0.25 0.25) (xy -0.25 0.25) (xy -0.25 -8.44) (xy -0.25 -9.02) (xy 10 -9.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "c08357b8-1abb-43f9-bc1c-5367a35ab3b3")
+	)
+	(fp_line
+		(start -0.95 -0.25)
+		(end 14.25 -0.25)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "7eabdc8e-70e9-4247-ae33-e1124d7303c3")
+	)
+	(fp_rect
+		(start -1.1 -10)
+		(end 31 0.34)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "c992de0f-8a57-46c2-a428-88882383188a")
+	)
+	(fp_rect
+		(start -1.1 -10)
+		(end 31 0.34)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "baa11e00-f085-4ad9-a490-4a207f1dd35d")
+	)
+	(fp_text user "Λ = 800 Mhz @ 3.7 ε_{R} = 194.953 mm"
+		(at 0.05 4.66 0)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "248eca4a-23fb-4f70-a8de-a3ba5bda20a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify bottom)
+		)
+	)
+	(fp_text user "Quarter wavelength = 48.738"
+		(at 0 6.23 0)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "7dd5956d-1a2d-43c4-ae17-77f043a7fb0b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "84f57085-86da-48d9-bbda-878740dc50dd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" connect rect
+		(at 2.1 0)
+		(size 0.5 0.5)
+		(layers "F.Cu")
+		(uuid "c3a6af24-f324-4aa1-b995-5ce3d47e461e")
+	)
+	(pad "2" thru_hole rect
+		(at 0 0)
+		(size 0.5 0.5)
+		(drill 0.3)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(zone_connect 2)
+		(uuid "92a03ef1-9bae-4e29-8d4f-18a70c7113ad")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "*.Cu")
+		(uuid "e0dab560-43e5-4187-b19f-0c69aeedb7a8")
+		(name "ANTENNA_KEEPOUT")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints not_allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -1 -10) (xy 30.9 -10) (xy 30.9 -0.26) (xy -1 -0.25)
+			)
+		)
+	)
+)
