@@ -1,10 +1,10 @@
-(footprint "800MHz_inverted_f_antenna"
+(footprint "800MHz_antenna"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 5.9 -0.8 0)
+		(at 5.9 -1.05 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "aad30e7f-63a3-47b7-85c5-51fc9e68de59")
@@ -15,8 +15,8 @@
 			)
 		)
 	)
-	(property "Value" "800MHz_inverted_f_antenna"
-		(at 0 1 0)
+	(property "Value" "800MHz_antenna"
+		(at 0 0.75 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "863a97d5-80b4-411c-ac2f-78f3b5f98e18")
@@ -28,7 +28,7 @@
 		)
 	)
 	(property "Footprint" ""
-		(at 0 0 0)
+		(at 0 -0.25 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -41,7 +41,7 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 0 0 0)
+		(at 0 -0.25 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -54,7 +54,7 @@
 		)
 	)
 	(property "Description" ""
-		(at 0 0 0)
+		(at 0 -0.25 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -68,24 +68,119 @@
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
 	(net_tie_pad_groups "1,2")
-	(fp_poly
-		(pts
-			(xy 10 -2.58) (xy 19.09 -2.58) (xy 19.09 -9.02) (xy 19.67 -9.02) (xy 29.34 -9.02) (xy 29.92 -9.02)
-			(xy 29.92 -2) (xy 29.34 -2) (xy 29.34 -8.44) (xy 19.67 -8.44) (xy 19.67 -2) (xy 19.09 -2) (xy 10 -2)
-			(xy 9.42 -2) (xy 9.42 -8.44) (xy 2.35 -8.44) (xy 2.35 0.25) (xy 1.85 0.25) (xy 1.85 -8.44) (xy 0.25 -8.44)
-			(xy 0.25 0.25) (xy -0.25 0.25) (xy -0.25 -8.44) (xy -0.25 -9.02) (xy 10 -9.02)
-		)
+	(fp_rect
+		(start -0.25 -8.988)
+		(end 4.75 -8.488)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(fill solid)
 		(layer "F.Cu")
-		(uuid "c08357b8-1abb-43f9-bc1c-5367a35ab3b3")
+		(uuid "93d054db-0e49-4d2a-84ab-4f6635af3553")
+	)
+	(fp_rect
+		(start -0.25 -8.738)
+		(end 0.25 0)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "0f600063-01fb-40a1-aff8-f2b6a045e472")
+	)
+	(fp_rect
+		(start 1.85 -8.738)
+		(end 2.35 0)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "4695fd51-5fea-4650-ab67-88c89c7e21ea")
+	)
+	(fp_rect
+		(start 4.25 -8.738)
+		(end 4.75 -3.738)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "ece68f34-aa15-4e95-a5a9-02510e626c2d")
+	)
+	(fp_rect
+		(start 4.25 -3.988)
+		(end 9.25 -3.488)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "b67c2d93-f10b-4ce9-8226-d1db7695e335")
+	)
+	(fp_rect
+		(start 8.75 -8.988)
+		(end 13.75 -8.488)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "3d1037d2-c130-4320-b9e6-d80f5c131c64")
+	)
+	(fp_rect
+		(start 8.75 -8.738)
+		(end 9.25 -3.738)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "ebce3a23-f7bb-4d04-8e7a-1ac4b3dc448a")
+	)
+	(fp_rect
+		(start 13.25 -8.738)
+		(end 13.75 -3.738)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "ca2e35b7-382b-4827-8c64-8437637ce17b")
+	)
+	(fp_rect
+		(start 13.25 -3.988)
+		(end 18.25 -3.488)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "bf8c7276-9ca7-4f0e-9940-ebb2a9c4cb5d")
+	)
+	(fp_rect
+		(start 17.75 -8.738)
+		(end 18.25 -3.738)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "be8a870d-b0fd-4ce8-ad0a-6a718250ce9b")
 	)
 	(fp_line
-		(start -0.95 -0.25)
-		(end 14.25 -0.25)
+		(start -0.95 -0.5)
+		(end 14.25 -0.5)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -94,19 +189,19 @@
 		(uuid "7eabdc8e-70e9-4247-ae33-e1124d7303c3")
 	)
 	(fp_rect
-		(start -1.1 -10)
-		(end 31 0.34)
+		(start -1 -10)
+		(end 20 0)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(fill none)
 		(layer "F.CrtYd")
-		(uuid "c992de0f-8a57-46c2-a428-88882383188a")
+		(uuid "0baac93c-68f0-40db-9fa8-dd3c3dabaad4")
 	)
 	(fp_rect
-		(start -1.1 -10)
-		(end 31 0.34)
+		(start -1 -10)
+		(end 20 0)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -116,7 +211,7 @@
 		(uuid "baa11e00-f085-4ad9-a490-4a207f1dd35d")
 	)
 	(fp_text user "Λ = 800 Mhz @ 3.7 ε_{R} = 194.953 mm"
-		(at 0.05 4.66 0)
+		(at 0.05 4.41 0)
 		(unlocked yes)
 		(layer "Cmts.User")
 		(uuid "248eca4a-23fb-4f70-a8de-a3ba5bda20a6")
@@ -128,8 +223,21 @@
 			(justify bottom)
 		)
 	)
-	(fp_text user "Quarter wavelength = 48.738"
-		(at 0 6.23 0)
+	(fp_text user "H = 8.738 mm"
+		(at -1 0 90)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "498164f9-595f-405d-9ec6-9e14a38860b8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "Quarter wavelength = 48.738 mm"
+		(at 0 5.98 0)
 		(unlocked yes)
 		(layer "Cmts.User")
 		(uuid "7dd5956d-1a2d-43c4-ae17-77f043a7fb0b")
@@ -141,8 +249,21 @@
 			(justify bottom)
 		)
 	)
+	(fp_text user "L = 40 mm"
+		(at -1 -10 0)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "8a47be36-893f-43c5-9348-7079c9fdc639")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(fp_text user "${REFERENCE}"
-		(at 0 2.5 0)
+		(at 0 2.25 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "84f57085-86da-48d9-bbda-878740dc50dd")
@@ -154,13 +275,13 @@
 		)
 	)
 	(pad "1" connect rect
-		(at 2.1 0)
+		(at 2.1 -0.25)
 		(size 0.5 0.5)
 		(layers "F.Cu")
 		(uuid "c3a6af24-f324-4aa1-b995-5ce3d47e461e")
 	)
 	(pad "2" thru_hole rect
-		(at 0 0)
+		(at 0 -0.25)
 		(size 0.5 0.5)
 		(drill 0.3)
 		(layers "*.Cu")
@@ -171,9 +292,9 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layers "*.Cu")
-		(uuid "e0dab560-43e5-4187-b19f-0c69aeedb7a8")
-		(name "ANTENNA_KEEPOUT")
+		(layer "F.Cu")
+		(uuid "bcd82b6a-9bd4-4b4a-a789-93210acdf35f")
+		(name "ANT_KEEPOUT")
 		(hatch edge 0.5)
 		(connect_pads
 			(clearance 0)
@@ -193,7 +314,7 @@
 		)
 		(polygon
 			(pts
-				(xy -1 -10) (xy 30.9 -10) (xy 30.9 -0.26) (xy -1 -0.25)
+				(xy -1 0) (xy 20 0) (xy 20 -10) (xy -1 -10)
 			)
 		)
 	)
