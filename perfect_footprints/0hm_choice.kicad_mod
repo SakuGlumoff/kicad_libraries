@@ -156,9 +156,9 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "1855ed1e-074a-47d3-819f-a90af9505478")
 	)
-	(model ":KICAD7_3DMODEL_DIR:Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+	(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.wrl"
 		(offset
-			(xyz 0.02 0 0)
+			(xyz -0.48 0 0)
 		)
 		(scale
 			(xyz 1 1 1)

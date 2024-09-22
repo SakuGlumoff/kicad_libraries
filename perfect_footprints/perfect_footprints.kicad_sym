@@ -7,15 +7,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "R"
-			(at 0 6.096 0)
+			(at 0 4.064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
-			(at -5.08 3.81 0)
+		(property "Value" "0 Ω"
+			(at 0 2.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49,22 +49,72 @@
 				(hide yes)
 			)
 		)
-		(symbol "0hm_choice_1_1"
-			(rectangle
-				(start -7.62 5.08)
-				(end 7.62 -5.08)
+		(symbol "0hm_choice_0_0"
+			(circle
+				(center -3.302 0)
+				(radius 0.508)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
-					(type background)
+					(type none)
 				)
 			)
-			(pin input line
-				(at -10.16 0 0)
+			(circle
+				(center 0 0)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 3.302 0)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "0hm_choice_0_1"
+			(arc
+				(start -0.254 0.508)
+				(mid -1.651 0.9912)
+				(end -3.048 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -1.27) (xy 0 -0.508)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "0hm_choice_1_1"
+			(pin passive line
+				(at 0 -3.81 90)
 				(length 2.54)
-				(name "Input"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -79,10 +129,10 @@
 					)
 				)
 			)
-			(pin output line
-				(at 10.16 2.54 180)
+			(pin passive line
+				(at -6.35 0 0)
 				(length 2.54)
-				(name "A"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -97,10 +147,10 @@
 					)
 				)
 			)
-			(pin output line
-				(at 10.16 -2.54 180)
+			(pin passive line
+				(at 6.35 0 180)
 				(length 2.54)
-				(name "B"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
