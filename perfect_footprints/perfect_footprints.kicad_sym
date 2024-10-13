@@ -6,7 +6,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "R"
+		(property "Reference" "J"
 			(at 0 4.064 0)
 			(effects
 				(font
@@ -14,7 +14,7 @@
 				)
 			)
 		)
-		(property "Value" "0 Ω"
+		(property "Value" ""
 			(at 0 2.286 0)
 			(effects
 				(font
@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" "perfect_footprints:0hm_choice"
+		(property "Footprint" "perfect_footprints:0Ohm_choice"
 			(at 0 -8.128 0)
 			(effects
 				(font
@@ -42,6 +42,15 @@
 		)
 		(property "Description" ""
 			(at -5.08 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "perfect_footprints:0Ohm_choice*"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -85,18 +94,6 @@
 			)
 		)
 		(symbol "0hm_choice_0_1"
-			(arc
-				(start -0.254 0.508)
-				(mid -1.651 0.9912)
-				(end -3.048 0.508)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
 					(xy 0 -1.27) (xy 0 -0.508)

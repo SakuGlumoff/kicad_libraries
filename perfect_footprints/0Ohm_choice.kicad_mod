@@ -1,4 +1,4 @@
-(footprint "0hm_choice"
+(footprint "0Ohm_choice"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "0hm_choice"
+	(property "Value" "0Ohm_choice"
 		(at -0.5 1.2 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -139,16 +139,16 @@
 		)
 	)
 	(pad "1" smd rect
-		(at 0 0)
-		(size 0.6 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "93f72c66-5ad3-45bd-9d42-ab054ffdc67f")
-	)
-	(pad "2" smd rect
 		(at -1 0)
 		(size 0.6 0.7)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "01d9af6b-b219-4422-88f8-2228b5206e2b")
+	)
+	(pad "2" smd rect
+		(at 0 0)
+		(size 0.6 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "93f72c66-5ad3-45bd-9d42-ab054ffdc67f")
 	)
 	(pad "3" smd rect
 		(at 1 0)
