@@ -1351,6 +1351,24 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 15.24 -10.16 180)
+				(length 2.54)
+				(name "RSVD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin power_in line
 				(at 15.24 -12.7 180)
 				(length 2.54)
