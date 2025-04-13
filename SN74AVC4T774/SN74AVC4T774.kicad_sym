@@ -76,7 +76,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "Package_SO:TSSOP-16_"
+		(property "ki_fp_filters" "TSSOP-16_*"
 			(at 0 0 0)
 			(effects
 				(font
