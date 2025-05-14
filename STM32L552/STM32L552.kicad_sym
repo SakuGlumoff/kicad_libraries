@@ -1319,7 +1319,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 10.414 0)
+			(at 0 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2446,8 +2446,8 @@
 		)
 		(symbol "STM32L552CEU6_2_1"
 			(rectangle
-				(start -12.7 9.398)
-				(end 12.7 -10.922)
+				(start -12.7 10.16)
+				(end 12.7 -13.97)
 				(stroke
 					(width 0)
 					(type default)
@@ -2583,6 +2583,24 @@
 				)
 			)
 			(pin power_in line
+				(at -15.24 -11.43 0)
+				(length 2.54)
+				(name "EP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "49"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
 				(at 15.24 7.62 180)
 				(length 2.54)
 				(name "VDDA/VREF+"
@@ -2601,7 +2619,7 @@
 				)
 			)
 			(pin power_in line
-				(at 15.24 -8.89 180)
+				(at 15.24 -11.43 180)
 				(length 2.54)
 				(name "VSSA/VREF-"
 					(effects
