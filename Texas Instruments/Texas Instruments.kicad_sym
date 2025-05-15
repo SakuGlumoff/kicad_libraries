@@ -1406,7 +1406,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 -2.032 0)
+			(at 0 18.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1415,7 +1415,7 @@
 			)
 		)
 		(property "Value" "SN74AVC4T774"
-			(at 0 -38.608 0)
+			(at 0 -18.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1424,7 +1424,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
-			(at 0 -38.608 0)
+			(at 0 -18.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1434,7 +1434,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74avc4t774.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1744404926774&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fsn74avc4t774"
-			(at 0 -38.608 0)
+			(at 0 -18.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1444,7 +1444,7 @@
 			)
 		)
 		(property "Description" "4-Bit Dual-Supply Bus Transceiver With Configurable Voltage-Level Shifting and 3-State Outputs With Independent Direction Control Inputs"
-			(at 0 -38.608 0)
+			(at 0 -18.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1454,7 +1454,7 @@
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
-			(at 0 -38.608 0)
+			(at 0 -18.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1474,8 +1474,8 @@
 		)
 		(symbol "SN74AVC4T774_1_1"
 			(rectangle
-				(start -7.62 -2.54)
-				(end 7.62 -38.1)
+				(start -7.62 17.78)
+				(end 7.62 -17.78)
 				(stroke
 					(width 0)
 					(type solid)
@@ -1485,7 +1485,7 @@
 				)
 			)
 			(pin power_in line
-				(at -10.16 -5.08 0)
+				(at -10.16 15.24 0)
 				(length 2.54)
 				(name "V_{CCA}"
 					(effects
@@ -1503,7 +1503,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -10.16 -12.7 0)
+				(at -10.16 7.62 0)
 				(length 2.54)
 				(name "A1"
 					(effects
@@ -1521,7 +1521,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -10.16 -15.24 0)
+				(at -10.16 5.08 0)
 				(length 2.54)
 				(name "A2"
 					(effects
@@ -1539,7 +1539,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -10.16 -17.78 0)
+				(at -10.16 2.54 0)
 				(length 2.54)
 				(name "A3"
 					(effects
@@ -1557,7 +1557,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -10.16 -20.32 0)
+				(at -10.16 0 0)
 				(length 2.54)
 				(name "A4"
 					(effects
@@ -1575,7 +1575,7 @@
 				)
 			)
 			(pin input line
-				(at -10.16 -33.02 0)
+				(at -10.16 -12.7 0)
 				(length 2.54)
 				(name "~{OE}"
 					(effects
@@ -1593,7 +1593,7 @@
 				)
 			)
 			(pin power_in line
-				(at -10.16 -35.56 0)
+				(at -10.16 -15.24 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1611,7 +1611,7 @@
 				)
 			)
 			(pin power_in line
-				(at 10.16 -5.08 180)
+				(at 10.16 15.24 180)
 				(length 2.54)
 				(name "V_{CCB}"
 					(effects
@@ -1629,7 +1629,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 10.16 -12.7 180)
+				(at 10.16 7.62 180)
 				(length 2.54)
 				(name "B1"
 					(effects
@@ -1647,7 +1647,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 10.16 -15.24 180)
+				(at 10.16 5.08 180)
 				(length 2.54)
 				(name "B2"
 					(effects
@@ -1665,7 +1665,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 10.16 -17.78 180)
+				(at 10.16 2.54 180)
 				(length 2.54)
 				(name "B3"
 					(effects
@@ -1683,7 +1683,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 10.16 -20.32 180)
+				(at 10.16 0 180)
 				(length 2.54)
 				(name "B4"
 					(effects
@@ -1701,7 +1701,7 @@
 				)
 			)
 			(pin input line
-				(at 10.16 -27.94 180)
+				(at 10.16 -7.62 180)
 				(length 2.54)
 				(name "DIR1"
 					(effects
@@ -1719,7 +1719,7 @@
 				)
 			)
 			(pin input line
-				(at 10.16 -30.48 180)
+				(at 10.16 -10.16 180)
 				(length 2.54)
 				(name "DIR2"
 					(effects
@@ -1737,7 +1737,7 @@
 				)
 			)
 			(pin input line
-				(at 10.16 -33.02 180)
+				(at 10.16 -12.7 180)
 				(length 2.54)
 				(name "DIR3"
 					(effects
@@ -1755,7 +1755,7 @@
 				)
 			)
 			(pin input line
-				(at 10.16 -35.56 180)
+				(at 10.16 -15.24 180)
 				(length 2.54)
 				(name "DIR4"
 					(effects
