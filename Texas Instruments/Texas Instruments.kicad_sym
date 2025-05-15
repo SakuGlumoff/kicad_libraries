@@ -710,7 +710,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" "TPS63021DSJR:TPS63021DSJR"
+		(property "Footprint" "Texas Instruments:TPS63021DSJR"
 			(at 0 -25.908 0)
 			(effects
 				(font
@@ -720,12 +720,13 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 6.35 0)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps63021.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1747236618571&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Ftps63021"
+			(at 0 -25.908 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify top)
 				(hide yes)
 			)
 		)

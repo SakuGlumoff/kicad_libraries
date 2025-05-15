@@ -27,7 +27,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" "SIM8066-6-1-14-01-A:SIM8066-6-1-14-01-A"
+		(property "Footprint" "GCT:SIM8066-6-1-14-01-A"
 			(at 0 -13.208 0)
 			(effects
 				(font
@@ -48,16 +48,6 @@
 			)
 		)
 		(property "Description" "7 (6 + 1) Position Card Connector NANO SIM Surface Mount, Right Angle Gold"
-			(at 0 -13.208 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify top)
-				(hide yes)
-			)
-		)
-		(property "DigiKey Part Number" "2073-SIM8066-6-1-14-01-ACT-ND"
 			(at 0 -13.208 0)
 			(effects
 				(font
