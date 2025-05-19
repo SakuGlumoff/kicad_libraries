@@ -1716,6 +1716,38 @@
 				(alternate "RCC_OSC32_OUT" bidirectional line)
 			)
 			(pin bidirectional line
+				(at -15.24 -57.15 0)
+				(length 2.54)
+				(name "PA1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC1_IN6" bidirectional line)
+				(alternate "ADC2_IN6" bidirectional line)
+				(alternate "I2C1_SMBA" bidirectional line)
+				(alternate "OCTOSPI1_DQS" bidirectional line)
+				(alternate "OPAMP1_VINM" bidirectional line)
+				(alternate "SPI1_SCK" bidirectional line)
+				(alternate "TAMP_IN5" bidirectional line)
+				(alternate "TAMP_OUT4" bidirectional line)
+				(alternate "TIM15_CH1N" bidirectional line)
+				(alternate "TIM2_CH2" bidirectional line)
+				(alternate "TIM5_CH2" bidirectional line)
+				(alternate "UART4_RX" bidirectional line)
+				(alternate "USART2_DE" bidirectional line)
+				(alternate "USART2_RTS" bidirectional line)
+			)
+			(pin bidirectional line
 				(at 15.24 6.35 180)
 				(length 2.54)
 				(name "PB8"
@@ -2096,38 +2128,6 @@
 				(alternate "UART4_TX" bidirectional line)
 				(alternate "USART2_CTS" bidirectional line)
 				(alternate "USART2_NSS" bidirectional line)
-			)
-			(pin bidirectional line
-				(at 15.24 -54.61 180)
-				(length 2.54)
-				(name "PA1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(alternate "ADC1_IN6" bidirectional line)
-				(alternate "ADC2_IN6" bidirectional line)
-				(alternate "I2C1_SMBA" bidirectional line)
-				(alternate "OCTOSPI1_DQS" bidirectional line)
-				(alternate "OPAMP1_VINM" bidirectional line)
-				(alternate "SPI1_SCK" bidirectional line)
-				(alternate "TAMP_IN5" bidirectional line)
-				(alternate "TAMP_OUT4" bidirectional line)
-				(alternate "TIM15_CH1N" bidirectional line)
-				(alternate "TIM2_CH2" bidirectional line)
-				(alternate "TIM5_CH2" bidirectional line)
-				(alternate "UART4_RX" bidirectional line)
-				(alternate "USART2_DE" bidirectional line)
-				(alternate "USART2_RTS" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 15.24 -57.15 180)
