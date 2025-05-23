@@ -423,6 +423,183 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "BQ297xy"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "BQ297xy"
+			(at 0 -5.588 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" "Package_SON:WSON-6_1.5x1.5mm_P0.5mm"
+			(at 0 -5.588 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/bq2970.pdf"
+			(at 0 -5.588 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Voltage and Current Protection for Single-Cell Li-Ion and Li-Polymer Batteries"
+			(at 0 -5.588 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+				(hide yes)
+			)
+		)
+		(symbol "BQ297xy_0_1"
+			(rectangle
+				(start -7.62 5.08)
+				(end 7.62 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "BQ297xy_1_1"
+			(pin input line
+				(at -10.16 3.81 0)
+				(length 2.54)
+				(name "BAT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -10.16 0 0)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -10.16 -3.81 0)
+				(length 2.54)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 10.16 3.81 180)
+				(length 2.54)
+				(name "V-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 10.16 0 180)
+				(length 2.54)
+				(name "Cout"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 10.16 -3.81 180)
+				(length 2.54)
+				(name "Dout"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "LM66200"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -536,18 +713,6 @@
 			)
 		)
 		(symbol "LM66200_1_1"
-			(polyline
-				(pts
-					(xy -10.16 12.192) (xy -10.16 12.192)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(rectangle
 				(start -8.89 7.62)
 				(end 8.89 -8.89)
@@ -583,7 +748,7 @@
 					(type outline)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -11.43 5.08 0)
 				(length 2.54)
 				(name "V_{IN1}"
@@ -601,7 +766,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -11.43 2.54 0)
 				(length 2.54)
 				(name "V_{IN2}"
@@ -637,7 +802,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin passive line
 				(at 11.43 5.08 180)
 				(length 2.54)
 				(name "V_{OUT}"
@@ -655,10 +820,9 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 11.43 5.08 180)
+			(pin passive line
+				(at 11.43 2.54 180)
 				(length 2.54)
-				(hide yes)
 				(name "V_{OUT}"
 					(effects
 						(font
@@ -675,7 +839,7 @@
 				)
 			)
 			(pin passive line
-				(at 11.43 -2.54 180)
+				(at 11.43 -1.27 180)
 				(length 2.54)
 				(name "ST"
 					(effects
@@ -692,8 +856,8 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 11.43 -6.35 180)
+			(pin input line
+				(at 11.43 -3.81 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -710,10 +874,9 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin input line
 				(at 11.43 -6.35 180)
 				(length 2.54)
-				(hide yes)
 				(name "GND"
 					(effects
 						(font
