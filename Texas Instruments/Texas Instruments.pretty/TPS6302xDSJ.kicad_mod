@@ -1,4 +1,4 @@
-(footprint "TPS63021DSJR"
+(footprint "TPS6302xDSJ"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -14,7 +14,7 @@
 			)
 		)
 	)
-	(property "Value" "TPS63021DSJR"
+	(property "Value" "TPS6302xDSJ"
 		(at 4.096 3.1564 0)
 		(layer "F.Fab")
 		(uuid "8fbc229b-df18-4756-9df6-2eb564129f3d")
