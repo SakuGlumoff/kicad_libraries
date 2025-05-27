@@ -57,7 +57,7 @@
 	(net_tie_pad_groups "1,2")
 	(fp_rect
 		(start -25.131 -10)
-		(end -27.9822 0)
+		(end -27.9822 -1.425)
 		(stroke
 			(width 0)
 			(type default)
@@ -79,7 +79,7 @@
 	)
 	(fp_rect
 		(start -2.2244 -7.75)
-		(end -5.0756 0)
+		(end -5.0756 -1.425)
 		(stroke
 			(width 0)
 			(type default)
