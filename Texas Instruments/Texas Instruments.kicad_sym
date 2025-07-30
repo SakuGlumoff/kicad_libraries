@@ -1564,7 +1564,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "SN74AVC4T774"
+	(symbol "SN74AVC4T774PW"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1577,7 +1577,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "SN74AVC4T774"
+		(property "Value" "SN74AVC4T774PW"
 			(at 0 -18.288 0)
 			(effects
 				(font
@@ -1626,7 +1626,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "Package_DFN_QFN:UQFN-16_1.8x2.6mm_P0.4mm* Package_SO:TSSOP-16_4.4x5mm_P0.65mm*"
+		(property "ki_fp_filters" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1635,7 +1635,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "SN74AVC4T774_1_1"
+		(symbol "SN74AVC4T774PW_1_1"
 			(rectangle
 				(start -7.62 17.78)
 				(end 7.62 -17.78)
@@ -1928,6 +1928,380 @@
 					)
 				)
 				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "SN74AVC4T774RSV"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 18.288 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "SN74AVC4T774RSV"
+			(at 0 -18.288 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:UQFN-16_1.8x2.6mm_P0.4mm"
+			(at 0 -18.288 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74avc4t774.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1744404926774&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fsn74avc4t774"
+			(at 0 -18.288 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+				(hide yes)
+			)
+		)
+		(property "Description" "4-Bit Dual-Supply Bus Transceiver With Configurable Voltage-Level Shifting and 3-State Outputs With Independent Direction Control Inputs"
+			(at 0 -18.288 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 -18.288 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Package_DFN_QFN:UQFN-16_1.8x2.6mm_P0.4mm*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SN74AVC4T774RSV_1_1"
+			(rectangle
+				(start -7.62 17.78)
+				(end 7.62 -17.78)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin power_in line
+				(at -10.16 15.24 0)
+				(length 2.54)
+				(name "V_{CCA}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -10.16 7.62 0)
+				(length 2.54)
+				(name "A1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -10.16 5.08 0)
+				(length 2.54)
+				(name "A2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -10.16 2.54 0)
+				(length 2.54)
+				(name "A3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -10.16 0 0)
+				(length 2.54)
+				(name "A4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -10.16 -12.7 0)
+				(length 2.54)
+				(name "~{OE}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -10.16 -15.24 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 10.16 15.24 180)
+				(length 2.54)
+				(name "V_{CCB}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 10.16 7.62 180)
+				(length 2.54)
+				(name "B1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 10.16 5.08 180)
+				(length 2.54)
+				(name "B2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 10.16 2.54 180)
+				(length 2.54)
+				(name "B3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 10.16 0 180)
+				(length 2.54)
+				(name "B4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 10.16 -7.62 180)
+				(length 2.54)
+				(name "DIR1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 10.16 -10.16 180)
+				(length 2.54)
+				(name "DIR2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 10.16 -12.7 180)
+				(length 2.54)
+				(name "DIR3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 10.16 -15.24 180)
+				(length 2.54)
+				(name "DIR4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
