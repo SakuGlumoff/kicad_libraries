@@ -67,7 +67,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "SIM8066-6-1-14-01-A"
+		(property "MPN" "SIM8066-6-1-14-01-A"
 			(at 0 -13.208 0)
 			(effects
 				(font
