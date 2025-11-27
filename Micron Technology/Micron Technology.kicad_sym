@@ -1671,8 +1671,8 @@
 		)
 		(symbol "MT41K256M16TW_3_1"
 			(rectangle
-				(start -12.7 10.16)
-				(end 12.7 -10.16)
+				(start -12.7 11.43)
+				(end 12.7 -11.43)
 				(stroke
 					(width 0.254)
 					(type solid)
@@ -1681,8 +1681,26 @@
 					(type background)
 				)
 			)
+			(pin passive line
+				(at -15.24 8.89 0)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "M7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin input line
-				(at -15.24 7.62 0)
+				(at -15.24 6.35 0)
 				(length 2.54)
 				(name "RAS_N"
 					(effects
@@ -1700,7 +1718,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 5.08 0)
+				(at -15.24 3.81 0)
 				(length 2.54)
 				(name "CAS_N"
 					(effects
@@ -1718,7 +1736,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 2.54 0)
+				(at -15.24 1.27 0)
 				(length 2.54)
 				(name "CS_N"
 					(effects
@@ -1736,7 +1754,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 0 0)
+				(at -15.24 -1.27 0)
 				(length 2.54)
 				(name "CKE"
 					(effects
@@ -1754,7 +1772,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -2.54 0)
+				(at -15.24 -3.81 0)
 				(length 2.54)
 				(name "WE_N"
 					(effects
@@ -1772,7 +1790,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -5.08 0)
+				(at -15.24 -6.35 0)
 				(length 2.54)
 				(name "ODT"
 					(effects
@@ -1790,7 +1808,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -7.62 0)
+				(at -15.24 -8.89 0)
 				(length 2.54)
 				(name "RESET_N"
 					(effects
@@ -1808,25 +1826,7 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 7.62 180)
-				(length 2.54)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "M7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 15.24 5.08 180)
+				(at 15.24 8.89 180)
 				(length 2.54)
 				(name "NC"
 					(effects
@@ -1844,7 +1844,7 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 2.54 180)
+				(at 15.24 6.35 180)
 				(length 2.54)
 				(name "NC"
 					(effects
@@ -1862,7 +1862,7 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 0 180)
+				(at 15.24 3.81 180)
 				(length 2.54)
 				(name "NC"
 					(effects
@@ -1880,7 +1880,7 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 -2.54 180)
+				(at 15.24 1.27 180)
 				(length 2.54)
 				(name "NC"
 					(effects
