@@ -3397,15 +3397,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digi-Key Part Number_1" "497-STM32MP135FAE7-ND"
-			(at 0 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "STMicroelectronics"
 			(at 0 104.14 0)
 			(effects
@@ -3415,25 +3406,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_1" "STMicroelectronics"
-			(at 0 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "STM32MP135FAE7"
-			(at 0 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN_1" "STM32MP135FAE7"
 			(at 0 104.14 0)
 			(effects
 				(font
