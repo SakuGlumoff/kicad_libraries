@@ -720,7 +720,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "AP64500"
+	(symbol "AP64500SP-13"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -734,7 +734,7 @@
 			)
 		)
 		(property "Value" "AP64500SP-13"
-			(at 0 -10.414 0)
+			(at 0 -12.954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -743,7 +743,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:Diodes_SO-8EP"
-			(at 0 -10.414 0)
+			(at 0 -12.954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -753,7 +753,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP64500.pdf"
-			(at 0 -10.414 0)
+			(at 0 -12.954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -763,7 +763,7 @@
 			)
 		)
 		(property "Description" "3.8V TO 40V INPUT, 5A LOW IQ SYNCHRONOUS BUCK WITH PROGRAMMABLE FREQUENCY"
-			(at 0 -10.414 0)
+			(at 0 -12.954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -773,7 +773,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "31-AP64500SP-13CT-ND"
-			(at 0 -10.414 0)
+			(at 0 -12.954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -783,7 +783,7 @@
 			)
 		)
 		(property "Manufacturer" "Diodes Incorporated"
-			(at 0 -10.414 0)
+			(at 0 -12.954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -793,7 +793,7 @@
 			)
 		)
 		(property "MPN" "AP64500SP-13"
-			(at 0 -10.414 0)
+			(at 0 -12.954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -802,10 +802,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "AP64500_1_1"
+		(symbol "AP64500SP-13_1_1"
 			(rectangle
 				(start -6.35 10.16)
-				(end 6.35 -10.16)
+				(end 6.35 -12.7)
 				(stroke
 					(width 0)
 					(type solid)
@@ -879,6 +879,24 @@
 					)
 				)
 				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -8.89 -10.16 0)
+				(length 2.54)
+				(name "EP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
