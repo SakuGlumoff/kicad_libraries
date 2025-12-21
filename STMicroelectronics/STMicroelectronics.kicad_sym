@@ -9954,7 +9954,7 @@
 			)
 		)
 		(property "Value" "STPMIC1DPQR"
-			(at 0 -49.53 0)
+			(at 0 -52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9963,7 +9963,7 @@
 			)
 		)
 		(property "Footprint" "STMicroelectronics:WFQFN-44L_P0.8mm_EP4.1x4.6mm"
-			(at 0 -49.53 0)
+			(at 0 -52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9973,7 +9973,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stpmic1.pdf"
-			(at 0 -49.53 0)
+			(at 0 -52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9983,7 +9983,7 @@
 			)
 		)
 		(property "Description" "Highly integrated power management IC for micro processor units"
-			(at 0 -49.53 0)
+			(at 0 -52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9993,7 +9993,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "497-STPMIC1DPQRCT-ND"
-			(at 0 -49.53 0)
+			(at 0 -52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10003,7 +10003,7 @@
 			)
 		)
 		(property "Manufacturer" "STMicroelectronics"
-			(at 0 -49.53 0)
+			(at 0 -52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10013,7 +10013,7 @@
 			)
 		)
 		(property "MPN" "STPMIC1DPQR"
-			(at 0 -49.53 0)
+			(at 0 -52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10025,7 +10025,7 @@
 		(symbol "STPMIC1DPQR_1_1"
 			(rectangle
 				(start -12.7 48.26)
-				(end 12.7 -48.26)
+				(end 12.7 -50.8)
 				(stroke
 					(width 0)
 					(type solid)
@@ -10514,6 +10514,24 @@
 					)
 				)
 			)
+			(pin output line
+				(at -15.24 -48.26 0)
+				(length 2.54)
+				(name "INTn"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "43"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin power_out line
 				(at 15.24 45.72 180)
 				(length 2.54)
@@ -10849,24 +10867,6 @@
 					)
 				)
 				(number "39"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 15.24 -33.02 180)
-				(length 2.54)
-				(name "INTn"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "43"
 					(effects
 						(font
 							(size 1.27 1.27)
