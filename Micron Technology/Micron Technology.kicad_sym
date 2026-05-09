@@ -943,7 +943,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 -15.24 180)
+				(at 15.24 -10.16 180)
 				(length 2.54)
 				(name "DQ13"
 					(effects
@@ -961,7 +961,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 -20.32 180)
+				(at 15.24 -15.24 180)
 				(length 2.54)
 				(name "DQ15"
 					(effects
@@ -979,7 +979,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 -12.7 180)
+				(at 15.24 -7.62 180)
 				(length 2.54)
 				(name "DQ12"
 					(effects
@@ -997,7 +997,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 -25.4 180)
+				(at 15.24 -45.72 180)
 				(length 2.54)
 				(name "UDQS_N"
 					(effects
@@ -1015,7 +1015,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 -17.78 180)
+				(at 15.24 -12.7 180)
 				(length 2.54)
 				(name "DQ14"
 					(effects
@@ -1033,7 +1033,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 -10.16 180)
+				(at 15.24 -5.08 180)
 				(length 2.54)
 				(name "DQ11"
 					(effects
@@ -1051,7 +1051,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 -5.08 180)
+				(at 15.24 0 180)
 				(length 2.54)
 				(name "DQ9"
 					(effects
@@ -1069,7 +1069,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 -22.86 180)
+				(at 15.24 -43.18 180)
 				(length 2.54)
 				(name "UDQS_P"
 					(effects
@@ -1087,7 +1087,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 -7.62 180)
+				(at 15.24 -2.54 180)
 				(length 2.54)
 				(name "DQ10"
 					(effects
@@ -1105,7 +1105,7 @@
 				)
 			)
 			(pin input line
-				(at 15.24 -27.94 180)
+				(at 15.24 -17.78 180)
 				(length 2.54)
 				(name "UDM"
 					(effects
@@ -1123,7 +1123,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 -2.54 180)
+				(at 15.24 2.54 180)
 				(length 2.54)
 				(name "DQ8"
 					(effects
@@ -1159,7 +1159,7 @@
 				)
 			)
 			(pin input line
-				(at 15.24 2.54 180)
+				(at 15.24 7.62 180)
 				(length 2.54)
 				(name "LDM"
 					(effects
@@ -1195,7 +1195,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 7.62 180)
+				(at 15.24 -38.1 180)
 				(length 2.54)
 				(name "LDQS_P"
 					(effects
@@ -1267,7 +1267,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 5.08 180)
+				(at 15.24 -40.64 180)
 				(length 2.54)
 				(name "LDQS_N"
 					(effects
@@ -1339,7 +1339,7 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 -38.1 180)
+				(at 15.24 -25.4 180)
 				(length 2.54)
 				(name "NC"
 					(effects
@@ -1393,7 +1393,7 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 -40.64 180)
+				(at 15.24 -27.94 180)
 				(length 2.54)
 				(name "NC"
 					(effects
@@ -1483,7 +1483,7 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 -45.72 180)
+				(at 15.24 -33.02 180)
 				(length 2.54)
 				(name "NC"
 					(effects
@@ -1555,7 +1555,7 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 -43.18 180)
+				(at 15.24 -30.48 180)
 				(length 2.54)
 				(name "NC"
 					(effects
