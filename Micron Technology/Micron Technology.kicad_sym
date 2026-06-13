@@ -74,17 +74,6 @@
 				)
 			)
 		)
-		(property "Digi-Key Part Number_1" "557-1792-ND"
-			(at 0 -55.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" "Micron Technology Inc."
 			(at 0 -57.404 0)
 			(show_name no)
@@ -96,29 +85,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_1" "Micron Technology Inc."
-			(at 0 -57.404 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "MT41K256M16TW-107:P"
-			(at 0 -59.182 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN_1" "MT41K256M16TW-107:P"
 			(at 0 -59.182 0)
 			(show_name no)
 			(do_not_autoplace no)
