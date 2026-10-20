@@ -3175,7 +3175,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" "Texas Instruments:TPS63021DSJR"
+		(property "Footprint" "Texas Instruments:TPS6302xDSJ"
 			(at 0 -25.908 0)
 			(show_name no)
 			(do_not_autoplace no)
